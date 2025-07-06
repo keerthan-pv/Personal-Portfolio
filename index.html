@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65a2ad3a40.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./images/cropped_circle_image.png">
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="text-logo"><span class="dot">P</span>ortfolio<span class="dot">.</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Achievement</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Over 290+ Contributions</p>
+            <h1>Hi, I'm <span>Keerthan pv</span><br/>From Bengaluru</h1>
+        </div>
+    </div>
+</div>
+<!------------------------------About--------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./Picsart_25-07-02_22-04-24-951.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">
+                    About Me
+                </h1>
+                <p class="para">I'm a developer who enjoys building clean and user-friendly digital experiences. I work well in teams, value good communication, and like solving problems with a creative approach. Whether it’s front-end or back-end, I focus on writing code that works well and makes a difference.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Programming Languages</p>
+                    <p class="tab-links" onclick="opentab('experience')">Tools & Frameworks</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Basic understanding of Python and scripting</li>
+                        <li><span>C++ & C</span><br>System-level programming & logic building</li>
+                        <li><span>HTML</span><br>Structuring web page content</li>
+                        <li><span>CSS</span><br>Styling and layout for web interfaces</li>
+                        <li><span>JavaScript</span><br>Adding interactivity to web pages</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>React</span><br>Building dynamic and responsive user interfaces</li>
+                        <li><span>WordPress</span><br>Creating and managing websites with CMS tools</li>
+                        <li><span>GitHub</span><br>Version control and collaboration on code projects</li>
+                        <li><span>Linux</span><br>Working in a command-line based development environment</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>SSLC(STATE BOARD) VAGDEVI SCHOOL - 97%.</li>
+                        <li><span>2023</span><br>PUC(PCMB) POORNAPRAJNA PU COLLEGE - 95%.</li>
+                        <li><span>2025</span><br>B-TECH PES UNIVERSITY - 8+ SGPA.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Achievement</h1>
+        <div class="services-list">
+            <div>
+              <h2>Contributions</h2>
+                    <ul>
+                        <li>290+ contributions, 7+ projects</li>
+                        <li>Worked on Icarus iverilog, ARM Simulator</li>
+                        <li>Wireshark and C chatbox project</li>
+                        <li>CIE Startup ideas</li>
+                        <li>Grammar & Parser for Python Constructs</li>
+                        <li>Pandas, Matplotlib, Scipy</li>
+                        <li>Seaborn, BeautifulSoup, Numpy</li> 
+                        <li>HTML, CSS, JavaScript code samples</li>
+                        <li>DDCO, MPCA, MCSE, LA, CN ,OS Miniprojects </li>
+                    </ul>
+                <a href="https://github.com/keerthan-pv" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <h2>
+                    Certifications
+                </h2>
+                    <ul>
+                        <li>IoT Platforms Overview</li>
+                        <li> Software	Engineering	Job	Simulation</li>
+                        <li>Career Essentials in GitHub
+                         Professional Certificate</li>
+                        <li>Introduction to Career Skills in Data Analytics</li>
+                        <li>Fundamentals of Digital Marketing</li>
+                        <li>Introduction to Soft Skills</li> 
+                        <li>Problem Solving(basic)</li>
+                    </ul>
+                <a href="https://github.com/keerthan-pv/Certifications" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <h2>
+                    Additional Information
+                </h2>
+                    <ul>
+                        <li>Languages : English (Professional), Kannada (Native), Hindi (Limited)</li>
+                        <li>Interests : Open-Source Projects, State Level Chess Player,  Photography, Puzzle Solving.</li>
+                        <li>Team Leader at CIE Ideathon & Hackathon</li>
+                    </ul>
+                <a href="https://github.com/keerthan-pv/Certifications" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list-1">
+            <div class="work">
+                <img src="./images/Time to travel holiday promotion Instagram Post (1).png">
+                <div class="layer">
+                    <h3>Travel Buddy</h3>
+                    <p>This project offers picnic packages 
+                        to popular destinations. Users can select a travel guide as part of the package. Additionally, the website provides insights into various popular 
+                        events and attractions around Bangalore.</p>
+                    <a href="https://travel-buddy-banglore-seven.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./upscalemedia-transformed -final.png">
+                 <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>Here, you'll find a showcase of my skills, projects, and creative work. I’m passionate about building impactful digital experiences and connecting with like-minded individuals around the world.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/Blue and Cyan Modern Cyber Security Instagram Post (1).png">
+                 <div class="layer">
+                    <h3>Proxy Firewall</h3>
+                    <p>Simulated a proxy firewall with secure (SSL) and plain servers using Python. Included token-based authentication.Showcases socket programming and basic network security concepts.</p>
+                    <a href="https://proxyfirewall.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <div class="work-list-2">
+            <div class="work">
+                <img src="./images/ChatGPT Image Jul 4, 2025, 12_55_58 PM (1).png">
+                <div class="layer">
+                    <h3>Digital Thermometer</h3>
+                    <p>This project uses Arduino with LM35, PIR, and UV sensors to detect motion and monitor environmental conditions efficiently. It displays real-time data and is ideal for smart home and health monitoring applications.</p>
+                    <a href="https://digital-thermometer.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/ChatGPT Image Jul 5, 2025, 02_23_25 PM (1).png">
+                 <div class="layer">
+                    <h3>PolyGlotter</h3>
+                    <p>Polyglotter is a text-to-speech translator that converts written English text into multiple South Indian languages Hindi, Kannada, Tamil, Telugu, and English with options for voice selection (male/female) and customizable speech speed. Ideal for language learners, accessibility tools, or anyone exploring multilingual voice synthesis.</p>
+                    <a href="https://drive.google.com/file/d/1M55NgtA1M5R6UxKJZq0nwDnU8KVBAwkY/view?usp=drive_link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/ChatGPT Image Jul 5, 2025, 02_59_19 PM (1).png">
+                 <div class="layer">
+                    <h3>Speechify</h3>
+                    <p>Speechify is a simple Python-based application that reads the content of PDF files. Built with Tkinter and text-to-speech functionality, it helps users listen to documents instead of reading them. Ideal for quick accessibility and effortless document review.</p>
+                    <a href="https://drive.google.com/file/d/1y9PBIL5Xsnyh5YdcUy7IkFjFJp1eSyM9/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <div class="work-list-2">
+            <div class="work">
+                <img src="./images/ChatGPT Image Jul 5, 2025, 03_23_57 PM (2).png">
+                <div class="layer">
+                    <h3>BANKING NETWORKING SYSTEM</h3>
+                    <p>This banking network system in Cisco Packet Tracer including 50+ fully configured nodes, no dummy devices, and a real-world banking scenario. It features multiple clients accessing diverse remote services, dynamic configuration changes, and a working SSL VPN setup for secure access.</p>
+                    <a href="https://github.com/keerthan-pv/CN-CISCO" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work-1">
+                <img src="">
+                 <div class="layer">
+                    <h3>PolyGlotter</h3>
+                    <p>Polyglotter is a text-to-speech translator that converts written English text into multiple South Indian languages Hindi, Kannada, Tamil, Telugu, and English with options for voice selection (male/female) and customizable speech speed. Ideal for language learners, accessibility tools, or anyone exploring multilingual voice synthesis.</p>
+                    <a href="https://drive.google.com/file/d/1M55NgtA1M5R6UxKJZq0nwDnU8KVBAwkY/view?usp=drive_link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work-1">
+                <img src="">
+                 <div class="layer">
+                    <h3>Proxy Firewall</h3>
+                    <p>Simulated a proxy firewall with secure (SSL) and plain servers using Python. Included token-based authentication.Showcases socket programming and basic network security concepts.</p>
+                    <a href="https://proxyfirewall.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#portfolio" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!-------------------------contact-------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Contact Me
+                </h1>
+                <p><i class="fas fa-paper-plane"></i>keerthanpv2004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8660024495</p>
+                <div class="social-icons">
+                    <a href="https://github.com/keerthan-pv" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/keerthan-p-v-494188316/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:keeerthanpv2004@email.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href= "./Resume.pdf" download class="btn btn2" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2025 Personal Portfolio. Made with ❤️ by keerthan pv</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyRxZhZgoewa_and0nZ4dtTlemwo4yShDFdfB8OiptmQo6bk3oMLXnC7YBOcRi2X8Ge/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
